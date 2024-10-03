@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(./assets/starwars-image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    
+}
+
+html, body{
+    height: 100%;
+}
+
+@media (max-width: 640px) {
+    body{
+        background-size: cover;
+        background-position: center;
+        
+    }
+}
+
